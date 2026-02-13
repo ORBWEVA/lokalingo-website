@@ -128,6 +128,23 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
       keywords: ['어학원 소프트웨어', '학교 관리', 'AI 학교 플랫폼', '교육 비즈니스'],
     },
   },
+  useCases: {
+    en: {
+      title: 'Use Cases - See Loka in Action',
+      description: 'Real scenarios showing how The Living Textbook transforms the experience for educators, learners, and schools.',
+      keywords: ['LokaLingo use cases', 'language teaching examples', 'EdTech case studies', 'educator success stories'],
+    },
+    ja: {
+      title: '活用事例 - Lokaの実績',
+      description: 'The Living Textbookが教育者、学習者、教育機関にどのように変革をもたらすかをご覧ください。',
+      keywords: ['LokaLingo活用事例', '語学教育事例', 'EdTech事例', '教育者成功事例'],
+    },
+    ko: {
+      title: '활용 사례 - Loka 실제 활용',
+      description: 'The Living Textbook이 교육자, 학습자, 교육 기관에 어떤 변화를 가져오는지 실제 시나리오로 확인하세요.',
+      keywords: ['LokaLingo 활용 사례', '어학 교육 사례', 'EdTech 사례', '교육자 성공 사례'],
+    },
+  },
   pricing: {
     en: {
       title: 'Pricing - $6 Per Seat, No Commissions',

@@ -1,8 +1,10 @@
 {
   "nav": {
+    "solutions": "Solutions",
     "educators": "For Educators",
     "learners": "For Learners",
     "schools": "For Schools",
+    "useCases": "Use Cases",
     "pricing": "Pricing",
     "story": "The Loka Story",
     "blog": "Blog",
@@ -333,6 +335,47 @@
         "content": "LokaLingo is just the beginning. We\u2019re building toward a platform where every type of learning \u2014 languages, leadership, professional skills \u2014 benefits from the CIP philosophy. Today it\u2019s The Living Textbook. Tomorrow it\u2019s an ecosystem."
       }
     ]
+  },
+  "useCases": {
+    "hero": {
+      "title": "See Loka in Action",
+      "subtitle": "Real scenarios showing how The Living Textbook transforms the experience for educators, learners, and schools."
+    },
+    "labels": {
+      "challenge": "Challenge",
+      "solution": "Loka Solution",
+      "result": "Result"
+    },
+    "learnMore": "Learn more",
+    "cases": [
+      {
+        "audience": "Educator",
+        "title": "Julio teaches 40 students across 3 time zones",
+        "challenge": "Julio was spending evenings creating custom homework for each student. With 40 learners at different levels, he couldn't keep up — and commission platforms were taking 40% of his income.",
+        "solution": "With Loka's Canvas, Julio captures corrections during each lesson. AI generates personalized review materials automatically. At $6/seat, his 40 students cost $240/month instead of losing $2,400 in commissions.",
+        "result": "Julio saved 10+ hours per week on material prep, kept 94% of his income, and his students showed measurable CEFR improvement within 3 months."
+      },
+      {
+        "audience": "Learner",
+        "title": "Yuki prepares for IELTS while working full-time",
+        "challenge": "Yuki tried Duolingo and generic textbooks but plateaued at B1. Generic content didn't address her specific weak points — articles, conditionals, and business vocabulary.",
+        "solution": "Her teacher captured corrections on Yuki's real conversation errors. CIP turned those into targeted quizzes and spaced repetition drills. Every lesson built on the last.",
+        "result": "Yuki's curriculum was 100% her own. Within 4 months she moved from B1 to B2, specifically improving in the areas she struggled with most."
+      },
+      {
+        "audience": "School",
+        "title": "A language school scales from 5 to 15 teachers",
+        "challenge": "The school director managed schedules, assessments, and student progress across 5 teachers using spreadsheets and 4 different tools. Scaling to 15 teachers seemed impossible without hiring admin staff.",
+        "solution": "Loka unified everything: bookings, AI-powered 5-dimension assessments, student progress dashboards, and multi-teacher management — all in one platform at $6/seat.",
+        "result": "The school tripled its teacher count without adding admin overhead. Consistent CEFR-based assessments across all teachers improved parent satisfaction scores."
+      }
+    ],
+    "cta": {
+      "title": "Ready to see how Loka works for you?",
+      "subtitle": "Join educators and schools already transforming their teaching with The Living Textbook.",
+      "primaryButton": "Try The Living Textbook",
+      "secondaryButton": "Book a Demo"
+    }
   },
   "contact": {
     "hero": {

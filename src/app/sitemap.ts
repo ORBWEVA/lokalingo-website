@@ -9,6 +9,7 @@ const staticPages = [
   '/for-educators',
   '/for-learners',
   '/for-schools',
+  '/use-cases',
   '/pricing',
   '/the-loka-story',
   '/blog',

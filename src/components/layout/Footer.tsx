@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { Youtube, Instagram, Mail } from 'lucide-react';
 
@@ -24,6 +25,7 @@ export function Footer() {
     ],
     company: [
       { name: tNav('story'), href: `/${locale}/the-loka-story` },
+      { name: tNav('useCases'), href: `/${locale}/use-cases` },
       { name: tNav('blog'), href: `/${locale}/blog` },
       { name: t('contact'), href: `/${locale}/contact` },
       { name: tNav('pricing'), href: `/${locale}/pricing` },
@@ -41,8 +43,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href={`/${locale}`} className="text-2xl font-bold tracking-wide">
-              LokaLingo
+            <Link href={`/${locale}`} className="flex items-center gap-2">
+              <Image src="/logo.png" alt="LokaLingo" width={28} height={28} className="rounded" />
+              <span className="text-2xl font-bold tracking-wide">LokaLingo</span>
             </Link>
             <p className="text-white/90 text-sm leading-relaxed">{t('tagline')}</p>
             <div className="flex gap-4 pt-2">

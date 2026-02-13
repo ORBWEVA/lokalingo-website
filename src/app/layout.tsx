@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   authors: [{ name: "LokaLingo" }],
   creator: "LokaLingo",
   metadataBase: new URL("https://lokalingo.com"),
+  icons: {
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
