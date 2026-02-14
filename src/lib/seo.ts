@@ -62,19 +62,19 @@ export function generateTwitterCard(title: string, description: string, subtitle
 export const pageSeo: Record<string, Record<Locale, { title: string; description: string; keywords: string[] }>> = {
   home: {
     en: {
-      title: 'Where Corrections Inspire Progress',
+      title: 'Where Conversations Become Curriculum',
       description: 'LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations. $6/seat, no commissions.',
-      keywords: ['language learning', 'EdTech', 'AI curriculum', 'language teaching', 'CIP', 'LokaLingo', 'The Living Textbook'],
+      keywords: ['language learning', 'EdTech', 'AI curriculum', 'language teaching', 'The Living Textbook', 'LokaLingo', 'conversations become curriculum'],
     },
     ja: {
-      title: '修正が進歩を生む場所',
+      title: '会話がカリキュラムになる場所',
       description: 'LokaLingoはAIツールで語学教育者を支援し、実際の会話から学習者のカリキュラムを構築します。月額$6/席、手数料なし。',
-      keywords: ['語学学習', 'EdTech', 'AIカリキュラム', '語学教育', 'CIP', 'LokaLingo'],
+      keywords: ['語学学習', 'EdTech', 'AIカリキュラム', '語学教育', 'LokaLingo', 'ザ・リビング テキストブック'],
     },
     ko: {
-      title: '수정이 진보를 만드는 곳',
+      title: '대화가 커리큘럼이 되는 곳',
       description: 'LokaLingo는 AI 도구로 어학 교육자를 지원하고 실제 대화에서 학습자 맞춤형 커리큘럼을 구축합니다. 좌석당 월 $6, 수수료 없음.',
-      keywords: ['어학 학습', 'EdTech', 'AI 커리큘럼', '어학 교육', 'CIP', 'LokaLingo'],
+      keywords: ['어학 학습', 'EdTech', 'AI 커리큘럼', '어학 교육', 'LokaLingo', '더 리빙 텍스트북'],
     },
   },
   educators: {
@@ -98,17 +98,17 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     en: {
       title: 'For Learners - Your Mistakes Are Your Best Teacher',
       description: 'Loka builds a curriculum unique to you from your real conversations. Every correction inspires your next step forward.',
-      keywords: ['personalized learning', 'language learner', 'AI tutor', 'CIP learning', 'adaptive curriculum'],
+      keywords: ['personalized learning', 'language learner', 'AI tutor', 'The Living Textbook', 'adaptive curriculum'],
     },
     ja: {
-      title: '学習者向け - あなたの間違いが最高の先生',
-      description: '実際の会話からあなただけのカリキュラムを構築。すべての修正が次のステップへの原動力に。',
-      keywords: ['パーソナライズド学習', '語学学習者', 'AIチューター', 'CIP学習'],
+      title: '学習者向け - あなたの会話が最高の先生',
+      description: '実際の会話からあなただけのカリキュラムを構築。すべてのキャプチャされた瞬間が次のステップへの原動力に。',
+      keywords: ['パーソナライズド学習', '語学学習者', 'AIチューター', 'ザ・リビング テキストブック'],
     },
     ko: {
-      title: '학습자용 - 당신의 실수가 최고의 스승',
-      description: '실제 대화에서 당신만의 커리큘럼을 구축합니다. 모든 수정이 다음 단계로의 원동력이 됩니다.',
-      keywords: ['맞춤형 학습', '어학 학습자', 'AI 튜터', 'CIP 학습'],
+      title: '학습자용 - 당신의 대화가 최고의 스승',
+      description: '실제 대화에서 당신만의 커리큘럼을 구축합니다. 모든 캡처된 순간이 다음 단계로의 원동력이 됩니다.',
+      keywords: ['맞춤형 학습', '어학 학습자', 'AI 튜터', '더 리빙 텍스트북'],
     },
   },
   schools: {
@@ -164,19 +164,19 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
   },
   story: {
     en: {
-      title: 'The Loka Story - Where Corrections Inspire Progress',
-      description: 'From Sanskrit to software: how 23 years of language teaching inspired a platform that turns every correction into a learning opportunity.',
-      keywords: ['LokaLingo story', 'CIP philosophy', 'language teaching history', 'Loka etymology'],
+      title: 'The Loka Story - Where Conversations Become Curriculum',
+      description: 'From Sanskrit to software: how 23 years of language teaching inspired a platform that turns every conversation into a learning opportunity.',
+      keywords: ['LokaLingo story', 'The Living Textbook', 'language teaching history', 'Loka etymology'],
     },
     ja: {
-      title: 'Lokaストーリー - 修正が進歩を生む場所',
-      description: 'サンスクリット語からソフトウェアへ：23年の語学教育がすべての修正を学びの機会に変えるプラットフォームを生んだ物語。',
-      keywords: ['LokaLingoの物語', 'CIP哲学', '語学教育の歴史'],
+      title: 'Lokaストーリー - 会話がカリキュラムになる場所',
+      description: 'サンスクリット語からソフトウェアへ：23年の語学教育がすべての会話を学びの機会に変えるプラットフォームを生んだ物語。',
+      keywords: ['LokaLingoの物語', 'ザ・リビング テキストブック', '語学教育の歴史'],
     },
     ko: {
-      title: 'Loka 이야기 - 수정이 진보를 만드는 곳',
-      description: '산스크리트어에서 소프트웨어로: 23년의 어학 교육이 모든 수정을 학습 기회로 바꾸는 플랫폼을 탄생시킨 이야기.',
-      keywords: ['LokaLingo 이야기', 'CIP 철학', '어학 교육 역사'],
+      title: 'Loka 이야기 - 대화가 커리큘럼이 되는 곳',
+      description: '산스크리트어에서 소프트웨어로: 23년의 어학 교육이 모든 대화를 학습 기회로 바꾸는 플랫폼을 탄생시킨 이야기.',
+      keywords: ['LokaLingo 이야기', '더 리빙 텍스트북', '어학 교육 역사'],
     },
   },
   blog: {

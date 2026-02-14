@@ -9,11 +9,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Where Corrections Inspire Progress | LokaLingo",
+    default: "Where Conversations Become Curriculum | LokaLingo",
     template: "%s | LokaLingo",
   },
   description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
-  keywords: ["language learning", "EdTech", "AI curriculum", "language teaching", "CIP", "LokaLingo", "The Living Textbook"],
+  keywords: ["language learning", "EdTech", "AI curriculum", "language teaching", "The Living Textbook", "LokaLingo", "conversations become curriculum"],
   authors: [{ name: "LokaLingo" }],
   creator: "LokaLingo",
   metadataBase: new URL("https://lokalingo.com"),
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://lokalingo.com",
     siteName: "LokaLingo",
-    title: "Where Corrections Inspire Progress | LokaLingo",
+    title: "Where Conversations Become Curriculum | LokaLingo",
     description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Where Corrections Inspire Progress | LokaLingo",
+    title: "Where Conversations Become Curriculum | LokaLingo",
     description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
   },
   robots: {

@@ -21,7 +21,7 @@ export default async function HomePage() {
 
   const differenceIcons = [Users, BookOpen, Sparkles];
   const differenceLinks = ['/for-educators', '/for-learners', '/for-schools'];
-  const cipIcons = [Target, Sparkles, Zap];
+  const flowIcons = [Target, Sparkles, Zap];
 
   // FAQ schema for SEO
   const faqSchema = {
@@ -123,18 +123,18 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* How CIP Works */}
+      {/* How The Living Textbook Works */}
       <section className="py-section bg-background">
         <div className="container-custom">
           <FadeIn>
-            <h2 className="text-h2 text-center mb-4">{t('cip.title')}</h2>
-            <p className="text-xl text-text text-center mb-12 max-w-2xl mx-auto">{t('cip.subtitle')}</p>
+            <h2 className="text-h2 text-center mb-4">{t('livingTextbook.title')}</h2>
+            <p className="text-xl text-text text-center mb-12 max-w-2xl mx-auto">{t('livingTextbook.subtitle')}</p>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto relative">
             {/* Connecting line (desktop only) */}
             <div className="hidden md:block absolute top-16 left-[20%] right-[20%] h-0.5 bg-gradient-to-r from-accent/20 via-accent to-accent/20" />
             {[0, 1, 2].map((i) => {
-              const Icon = cipIcons[i];
+              const Icon = flowIcons[i];
               return (
                 <FadeIn key={i} delay={i * 200}>
                   <div className="text-center relative">
@@ -144,8 +144,8 @@ export default async function HomePage() {
                     <div className="text-sm font-bold text-accent uppercase tracking-wider mb-2">
                       Step {i + 1}
                     </div>
-                    <h3 className="text-h4 mb-2">{t(`cip.steps.${i}.title`)}</h3>
-                    <p className="text-text">{t(`cip.steps.${i}.description`)}</p>
+                    <h3 className="text-h4 mb-2">{t(`livingTextbook.steps.${i}.title`)}</h3>
+                    <p className="text-text">{t(`livingTextbook.steps.${i}.description`)}</p>
                   </div>
                 </FadeIn>
               );

@@ -27,7 +27,7 @@
   },
   "home": {
     "hero": {
-      "title": "Where Corrections Inspire Progress",
+      "title": "Where Conversations Become Curriculum",
       "subtitle": "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations \u2014 not a textbook.",
       "primaryCta": "Explore The Living Textbook",
       "secondaryCta": "Book a Free Demo"
@@ -59,7 +59,7 @@
         },
         {
           "title": "For Learners",
-          "description": "A curriculum built from your real conversations. Every correction becomes your next lesson.",
+          "description": "A curriculum built from your real conversations. Every conversation becomes your next lesson.",
           "cta": "Learn More"
         },
         {
@@ -69,13 +69,13 @@
         }
       ]
     },
-    "cip": {
-      "title": "How CIP Works",
-      "subtitle": "Every session makes every future session better. That\u2019s the CIP flywheel.",
+    "livingTextbook": {
+      "title": "How The Living Textbook Works",
+      "subtitle": "Every session makes every future session better. That\u2019s the learning loop.",
       "steps": [
         {
           "title": "Capture",
-          "description": "Real conversation errors are captured on a blank Canvas during lessons"
+          "description": "Real conversation moments are captured on a blank Canvas during lessons"
         },
         {
           "title": "Generate",
@@ -119,7 +119,7 @@
         },
         {
           "question": "How is this different from iTalki, Preply, or Duolingo?",
-          "answer": "Unlike marketplaces that take commissions (up to 60%), Loka charges a flat $6/seat with no revenue sharing. Unlike generic apps, Loka builds a unique curriculum from each learner\u2019s actual conversations \u2014 every correction becomes a lesson."
+          "answer": "Unlike marketplaces that take commissions (up to 60%), Loka charges a flat $6/seat with no revenue sharing. Unlike generic apps, Loka builds a unique curriculum from each learner\u2019s actual conversations \u2014 every conversation becomes a lesson."
         },
         {
           "question": "What does $6/seat include?",
@@ -167,7 +167,7 @@
     "features": {
       "title": "Everything You Need",
       "items": [
-        { "title": "Canvas System", "description": "A blank slate that fills with real lesson content \u2014 CIPs, ARPs, keywords, and notes" },
+        { "title": "Canvas System", "description": "A blank slate that fills with real lesson content \u2014 Correct/Incorrect Phrases, ARPs, keywords, and notes" },
         { "title": "AI Assessment", "description": "5-dimension assessment model: Communicative Ability, Fluency, Listening, Vocabulary, Grammar" },
         { "title": "Student Progress", "description": "Track every student\u2019s journey with CEFR-aligned levels and visual progress" },
         { "title": "Booking Management", "description": "Built-in scheduling with calendar integration and automated reminders" },
@@ -195,13 +195,13 @@
   "learners": {
     "hero": {
       "title": "Your Mistakes Are Your Best Teacher",
-      "subtitle": "Loka builds a curriculum unique to you \u2014 from your real conversations, not a generic textbook. Every correction inspires your next step forward."
+      "subtitle": "Loka builds a curriculum unique to you \u2014 from your real conversations, not a generic textbook. Every captured moment inspires your next step forward."
     },
-    "cip": {
+    "livingTextbook": {
       "title": "How Your Learning Evolves",
       "steps": [
-        { "label": "Mistake", "description": "You make a natural error during conversation" },
-        { "label": "Correction", "description": "Your teacher captures it as a CIP on the Canvas" },
+        { "label": "Conversation", "description": "You have a natural conversation with your teacher" },
+        { "label": "Capture", "description": "Your teacher captures key moments on the Canvas" },
         { "label": "Lesson", "description": "AI generates personalized review material just for you" },
         { "label": "Progress", "description": "Spaced repetition ensures you master it over time" }
       ]
@@ -307,7 +307,7 @@
   "story": {
     "hero": {
       "title": "The Loka Story",
-      "subtitle": "Where Corrections Inspire Progress"
+      "subtitle": "Where Conversations Become Curriculum"
     },
     "sections": [
       {
@@ -319,8 +319,8 @@
         "content": "Loka comes from Sanskrit \u0932\u094b\u0915 (loka), meaning \u2018world\u2019 or \u2018place.\u2019 Combined with lingua (Latin for \u2018language\u2019), LokaLingo means \u2018a world of language\u2019 \u2014 a place where every learner\u2019s world shapes their curriculum."
       },
       {
-        "title": "CIP: Corrections Inspiring Progress",
-        "content": "The heart of LokaLingo is CIP \u2014 Corrections Inspiring Progress. When a learner makes an error in conversation, the teacher captures it on the Canvas. AI then transforms that correction into personalized review material, quizzes, and spaced repetition. Every mistake becomes a stepping stone."
+        "title": "The Living Textbook",
+        "content": "The heart of LokaLingo is The Living Textbook. When a learner speaks in conversation, the teacher captures key moments on the Canvas. AI then transforms those captured moments into personalized review material, quizzes, and spaced repetition. Every conversation becomes a stepping stone."
       },
       {
         "title": "The Three Pillars",
@@ -332,7 +332,7 @@
       },
       {
         "title": "The Vision",
-        "content": "LokaLingo is just the beginning. We\u2019re building toward a platform where every type of learning \u2014 languages, leadership, professional skills \u2014 benefits from the CIP philosophy. Today it\u2019s The Living Textbook. Tomorrow it\u2019s an ecosystem."
+        "content": "LokaLingo is just the beginning. We\u2019re building toward a platform where every type of learning \u2014 languages, leadership, professional skills \u2014 benefits from The Living Textbook philosophy. Today it\u2019s language learning. Tomorrow it\u2019s an ecosystem."
       }
     ]
   },
@@ -352,14 +352,14 @@
         "audience": "Educator",
         "title": "Julio teaches 40 students across 3 time zones",
         "challenge": "Julio was spending evenings creating custom homework for each student. With 40 learners at different levels, he couldn't keep up — and commission platforms were taking 40% of his income.",
-        "solution": "With Loka's Canvas, Julio captures corrections during each lesson. AI generates personalized review materials automatically. At $6/seat, his 40 students cost $240/month instead of losing $2,400 in commissions.",
+        "solution": "With Loka's Canvas, Julio captures moments during each lesson. AI generates personalized review materials automatically. At $6/seat, his 40 students cost $240/month instead of losing $2,400 in commissions.",
         "result": "Julio saved 10+ hours per week on material prep, kept 94% of his income, and his students showed measurable CEFR improvement within 3 months."
       },
       {
         "audience": "Learner",
         "title": "Yuki prepares for IELTS while working full-time",
         "challenge": "Yuki tried Duolingo and generic textbooks but plateaued at B1. Generic content didn't address her specific weak points — articles, conditionals, and business vocabulary.",
-        "solution": "Her teacher captured corrections on Yuki's real conversation errors. CIP turned those into targeted quizzes and spaced repetition drills. Every lesson built on the last.",
+        "solution": "Her teacher captured key moments from Yuki's real conversations. The Living Textbook turned those into targeted quizzes and spaced repetition drills. Every lesson built on the last.",
         "result": "Yuki's curriculum was 100% her own. Within 4 months she moved from B1 to B2, specifically improving in the areas she struggled with most."
       },
       {

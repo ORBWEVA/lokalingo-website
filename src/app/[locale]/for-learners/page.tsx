@@ -34,16 +34,16 @@ export default async function LearnersPage() {
         </div>
       </section>
 
-      {/* CIP Visual */}
+      {/* Learning Flow */}
       <section className="py-section bg-background">
         <div className="container-custom">
-          <FadeIn><h2 className="text-h2 text-center mb-12">{t('cip.title')}</h2></FadeIn>
+          <FadeIn><h2 className="text-h2 text-center mb-12">{t('livingTextbook.title')}</h2></FadeIn>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-2 max-w-4xl mx-auto">
             {[0, 1, 2, 3].map((i) => (
               <FadeIn key={i} delay={i * 150} className="flex items-center gap-2">
                 <div className="bg-accent/10 border border-accent/20 rounded-xl p-6 text-center min-w-[160px]">
-                  <div className="text-sm font-bold text-accent uppercase tracking-wider mb-1">{t(`cip.steps.${i}.label`)}</div>
-                  <p className="text-text text-sm">{t(`cip.steps.${i}.description`)}</p>
+                  <div className="text-sm font-bold text-accent uppercase tracking-wider mb-1">{t(`livingTextbook.steps.${i}.label`)}</div>
+                  <p className="text-text text-sm">{t(`livingTextbook.steps.${i}.description`)}</p>
                 </div>
                 {i < 3 && <ArrowRight className="w-5 h-5 text-accent hidden md:block flex-shrink-0" />}
               </FadeIn>
