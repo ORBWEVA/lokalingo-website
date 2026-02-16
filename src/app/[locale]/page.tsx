@@ -78,7 +78,7 @@ export default async function HomePage() {
           <FadeIn>
             <h2 className="text-h2 text-center mb-12">{t('problems.title')}</h2>
           </FadeIn>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[0, 1, 2].map((i) => (
               <FadeIn key={i} delay={i * 150}>
                 <AnimatedCard className="p-8 h-full">
