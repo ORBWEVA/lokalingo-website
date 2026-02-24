@@ -81,13 +81,13 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
       keywords: ['language teacher tools', 'teaching platform', 'educator earnings', 'AI assessment', 'no commission teaching'],
     },
     ja: {
-      title: '教育者向け - あなたらしく教え、収益を守る',
-      description: '月額$6/席の定額制。手数料なし。AI評価、自動カリキュラム、独立した教育ビジネスのためのツール。',
+      title: '教育者向け - 自分らしく教え、収益を守る',
+      description: '月額$6/席の定額制。手数料なし。AI評価と自動カリキュラムで、独立した語学教育ビジネスを効率的に運営できるツールを提供します。',
       keywords: ['語学教師ツール', '教育プラットフォーム', '教育者収益', 'AI評価'],
     },
     ko: {
-      title: '교육자용 - 당신만의 방식으로 가르치고 수익을 지키세요',
-      description: '좌석당 월 $6 정액제. 수수료 없음. AI 평가, 자동 커리큘럼, 독립적인 교육 비즈니스를 위한 도구.',
+      title: '교육자용 - 나만의 방식으로 가르치고 수익을 지키세요',
+      description: '좌석당 월 $6 정액제. 수수료 없음. AI 평가와 자동 커리큘럼으로 독립적인 어학 교육 비즈니스를 효율적으로 운영할 수 있습니다.',
       keywords: ['어학 교사 도구', '교육 플랫폼', '교육자 수익', 'AI 평가'],
     },
   },
@@ -98,13 +98,13 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
       keywords: ['personalized learning', 'language learner', 'AI tutor', 'The Living Textbook', 'adaptive curriculum'],
     },
     ja: {
-      title: '学習者向け - あなたの会話が最高の先生',
-      description: '実際の会話からあなただけのカリキュラムを構築。すべてのキャプチャされた瞬間が次のステップへの原動力に。',
+      title: '学習者向け - 会話が最高の先生になる',
+      description: '実際の会話から自分だけのカリキュラムを構築。AIが5つのスキル次元で進捗を分析し、すべての学びの瞬間が次のステップへの原動力になります。',
       keywords: ['パーソナライズド学習', '語学学習者', 'AIチューター', 'ザ・リビング テキストブック'],
     },
     ko: {
       title: '학습자용 - 당신의 대화가 최고의 스승',
-      description: '실제 대화에서 당신만의 커리큘럼을 구축합니다. 모든 캡처된 순간이 다음 단계로의 원동력이 됩니다.',
+      description: '실제 대화에서 나만의 커리큘럼을 구축합니다. AI가 5가지 스킬 차원에서 진행 상황을 분석하고, 간격 반복 학습으로 장기 기억을 강화합니다.',
       keywords: ['맞춤형 학습', '어학 학습자', 'AI 튜터', '더 리빙 텍스트북'],
     },
   },
@@ -116,12 +116,12 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     },
     ja: {
       title: '学校向け - AIで語学スクールを拡大',
-      description: '予測可能なコスト、自動評価、23年の学校運営経験から生まれたプラットフォーム。月額$6/席。',
+      description: '予測可能なコスト、AI自動評価、23年の語学学校運営経験から生まれたプラットフォーム。月額$6/席で生徒管理も簡単に。',
       keywords: ['語学学校ソフトウェア', '学校管理', 'AI学校プラットフォーム', '教育ビジネス'],
     },
     ko: {
       title: '학校용 - AI로 어학원을 확장하세요',
-      description: '예측 가능한 비용, 자동 평가, 23년 학교 운영 경험에서 탄생한 플랫폼. 좌석당 월 $6.',
+      description: '예측 가능한 비용, AI 자동 평가, 23년 어학원 운영 경험에서 탄생한 플랫폼. 좌석당 월 $6으로 학생 관리까지 간편하게.',
       keywords: ['어학원 소프트웨어', '학교 관리', 'AI 학교 플랫폼', '교육 비즈니스'],
     },
   },
@@ -150,18 +150,18 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     },
     ja: {
       title: '料金 - 月額$6/席、手数料なし',
-      description: 'シンプルで透明な料金体系。月額$6/アクティブ席。手数料なし、隠れた費用なし、契約縛りなし。',
+      description: 'シンプルで透明な料金体系。月額$6/アクティブ席。手数料なし、隠れた費用なし、契約縛りなし。成長に合わせて席を追加できます。',
       keywords: ['LokaLingo料金', '教育プラットフォームコスト', '月額$6'],
     },
     ko: {
       title: '가격 - 좌석당 월 $6, 수수료 없음',
-      description: '간단하고 투명한 가격. 활성 좌석당 월 $6. 수수료 없음, 숨겨진 비용 없음, 잠금 없음.',
+      description: '간단하고 투명한 가격. 활성 좌석당 월 $6. 수수료 없음, 숨겨진 비용 없음, 잠금 없음. 성장에 맞춰 좌석을 추가하세요.',
       keywords: ['LokaLingo 가격', '교육 플랫폼 비용', '좌석당 월 $6'],
     },
   },
   story: {
     en: {
-      title: 'The Loka Story',
+      title: 'The Loka Story - 23 Years of Language Education',
       description: 'From Sanskrit to software: how 23 years of language teaching inspired a platform that turns every conversation into a learning opportunity.',
       keywords: ['LokaLingo story', 'The Living Textbook', 'language teaching history', 'Loka etymology'],
     },
@@ -184,12 +184,12 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     },
     ja: {
       title: 'ブログ - 語学教育インサイト',
-      description: 'LokaLingoチームによる語学学習、EdTech、教育方法、AI教育に関するインサイト。',
+      description: 'LokaLingoチームによる語学学習、EdTech、教授法、AI教育に関する最新インサイトとベストプラクティスをお届けします。',
       keywords: ['語学学習ブログ', 'EdTechインサイト', '教育方法', 'AI教育'],
     },
     ko: {
       title: '블로그 - 어학 교육 인사이트',
-      description: 'LokaLingo 팀의 어학 학습, EdTech, 교수법, AI 교육에 관한 인사이트.',
+      description: 'LokaLingo 팀이 전하는 어학 학습, EdTech, 교수법, AI 교육에 관한 최신 인사이트와 모범 사례를 확인하세요.',
       keywords: ['어학 학습 블로그', 'EdTech 인사이트', '교수법', 'AI 교육'],
     },
   },
@@ -201,12 +201,12 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     },
     ja: {
       title: 'お問い合わせ - 無料デモを予約',
-      description: 'LokaLingoがあなたの教育をどう変えるか、無料デモでご確認ください。ryan@lokalingo.comまで。',
+      description: 'LokaLingoで教育がどう変わるか、無料デモでご確認ください。AI搭載ツールと$6/席の料金体系をご体験いただけます。ryan@lokalingo.comまで。',
       keywords: ['LokaLingoに連絡', 'デモ予約', '語学教育デモ'],
     },
     ko: {
       title: '문의 - 무료 데모 예약',
-      description: 'LokaLingo가 당신의 교육을 어떻게 변화시킬 수 있는지 무료 데모로 확인하세요.',
+      description: 'LokaLingo의 AI 기반 교육 도구와 $6/석 요금제를 무료 데모로 직접 체험해 보세요. ryan@lokalingo.com으로 문의하세요.',
       keywords: ['LokaLingo 문의', '데모 예약', '어학 교육 데모'],
     },
   },

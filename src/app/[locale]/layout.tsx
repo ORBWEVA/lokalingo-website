@@ -42,19 +42,35 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  const jsonLd = {
+  const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "LokaLingo",
     alternateName: "Accent Language 株式会社",
     url: "https://lokalingo.com",
-    logo: "https://lokalingo.com/logo.png",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://lokalingo.com/logo.png",
+      width: 512,
+      height: 512,
+    },
     description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
     inLanguage: locale,
+    foundingDate: "2003",
     contactPoint: {
       "@type": "ContactPoint",
       email: "ryan@lokalingo.com",
+      contactType: "customer support",
     },
+    sameAs: [],
+  };
+
+  const webSiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "LokaLingo",
+    url: "https://lokalingo.com",
+    inLanguage: locale,
   };
 
   const messages = await getMessages();
@@ -64,7 +80,11 @@ export default async function LocaleLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
         />
       </head>
       <body className={`${exo2.variable} ${notoSansJP.variable} ${jetbrainsMono.variable} antialiased min-h-screen flex flex-col font-sans`}>

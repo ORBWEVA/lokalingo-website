@@ -150,3 +150,11 @@
 .animate-pulse-glow {
   animation: pulse-glow 2s ease-in-out infinite;
 }
+
+/* Accessibility & bot safety: ensure content visible without animations */
+@media (prefers-reduced-motion: reduce) {
+  .opacity-0 { opacity: 1 !important; }
+  .translate-y-8, .-translate-y-8, .translate-x-8, .-translate-x-8 {
+    transform: none !important;
+  }
+}

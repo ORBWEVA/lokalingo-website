@@ -5,6 +5,7 @@ const intlMiddleware = createIntlMiddleware({
   locales,
   defaultLocale,
   localePrefix: 'always',
+  alternateLinks: false,
 });
 
 export default intlMiddleware;

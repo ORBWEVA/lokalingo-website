@@ -118,15 +118,6 @@ export const blogPosts: BlogPostMeta[] = [
     author: 'LokaLingo',
     heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771297210445.png',
   },
-  {
-    id: 'loka-1771294459023',
-    slug: 'ai-language-teaching-assistant-2026-20260217',
-    date: '2026-02-17',
-    category: 'AI in Education',
-    readTime: '8 min read',
-    author: 'LokaLingo',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771294459023.png?v=2',
-  },
 ];
 
 export function getLocalizedSlug(post: BlogPostMeta, locale: string): string {

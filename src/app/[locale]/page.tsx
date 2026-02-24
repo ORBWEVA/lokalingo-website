@@ -23,27 +23,8 @@ export default async function HomePage() {
   const differenceLinks = ['/for-educators', '/for-learners', '/for-schools'];
   const flowIcons = [Target, Sparkles, Zap];
 
-  // FAQ schema for SEO
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: Array.from({ length: 7 }, (_, i) => ({
-      '@type': 'Question',
-      name: t(`faq.items.${i}.question`),
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: t(`faq.items.${i}.answer`),
-      },
-    })),
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
       {/* Hero */}
       <section className="py-hero bg-gradient-to-b from-white via-blue-50/30 to-muted dark:from-background dark:via-[hsl(230,60%,8%)] dark:to-muted relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(205,100%,60%,0.08),transparent_60%)] dark:bg-[radial-gradient(ellipse_at_top,hsl(205,100%,60%,0.12),transparent_60%)]" />
