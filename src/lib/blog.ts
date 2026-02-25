@@ -41,6 +41,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771963504944',
     slug: 'independent-language-teacher-tools-2026-20260225',
+    slugs: {
+      ja: 'eikaiwa-kanri-soft-trend-2026',
+      ko: 'hagwon-gwanri-software-mirae-2026',
+    },
     date: '2026-02-24',
     category: 'Teaching Methods',
     readTime: '10 min read',
@@ -59,6 +63,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771790704723',
     slug: 'spaced-repetition-language-learning-2026-20260223',
+    slugs: {
+      ko: 'gangyeok-banbog-eoneo-jeongbog-2026',
+    },
     date: '2026-02-22',
     category: 'Language Learning',
     readTime: '15 min read',
@@ -68,6 +75,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771704304162',
     slug: 'interactive-whiteboard-language-teaching-20260222',
+    slugs: {
+      ja: 'vr-ar-gogaku-kyouiku-iwb',
+      ko: 'interactive-whiteboard-eoneo-hakseup',
+    },
     date: '2026-02-21',
     category: 'Language Learning',
     readTime: '8 min read',
@@ -77,6 +88,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771617904087',
     slug: 'ai-powered-real-time-language-tutoring-how-multimo-20260221',
+    slugs: {
+      ja: 'gogaku-edtech-trend-2026',
+      ko: 'edtech-eoneo-hakseup-hyeogsin-2026',
+    },
     date: '2026-02-20',
     category: 'Language Learning',
     readTime: '12 min read',
@@ -86,6 +101,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771531504101',
     slug: 'language-learning-platform-comparison-2026-20260220',
+    slugs: {
+      ja: 'gogaku-gakushuu-platform-hikaku-2026',
+      ko: 'eohag-hakseup-platform-bigyo-2026',
+    },
     date: '2026-02-19',
     category: 'EdTech',
     readTime: '18 min read',
@@ -95,6 +114,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771445104318',
     slug: 'cefr-aligned-language-assessment-tools-20260219',
+    slugs: {
+      ko: 'cefr-eohag-pyeongga-dogu',
+    },
     date: '2026-02-18',
     category: 'Language Learning',
     readTime: '18 min read',
@@ -104,6 +126,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771358705349',
     slug: 'independent-language-teacher-tools-2026-20260218',
+    slugs: {
+      ja: 'eikaiwa-school-kanri-soft-2025',
+      ko: 'hagwon-gwanri-software-guide-2025',
+    },
     date: '2026-02-17',
     category: 'Teaching Methods',
     readTime: '8 min read',
@@ -113,6 +139,10 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1771297210445',
     slug: 'ai-language-teaching-assistant-2026-20260217',
+    slugs: {
+      ja: 'ai-gogaku-kyouiku-assistant-2026',
+      ko: 'ai-eohag-gyoyug-bojo-2026',
+    },
     date: '2026-02-17',
     category: 'AI in Education',
     readTime: '9 min read',
