@@ -49,7 +49,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Teaching Methods',
     readTime: '10 min read',
     author: 'LokaLingo',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771963504944.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771963504944.png?v=2',
   },
   {
     id: 'loka-1771877104945',
@@ -70,7 +70,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Language Learning',
     readTime: '15 min read',
     author: 'LokaLingo',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771790704723.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771790704723.png?v=2',
   },
   {
     id: 'loka-1771704304162',
@@ -96,7 +96,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Language Learning',
     readTime: '12 min read',
     author: 'LokaLingo',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771617904087.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771617904087.png?v=2',
   },
   {
     id: 'loka-1771531504101',
