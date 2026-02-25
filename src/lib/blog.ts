@@ -147,7 +147,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'AI in Education',
     readTime: '9 min read',
     author: 'LokaLingo',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771297210445.png?v=2',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771297210445.png?v=3',
   },
 ];
 
