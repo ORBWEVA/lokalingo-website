@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations, getLocale } from 'next-intl/server';
-import { ArrowRight, DollarSign, BookOpen, Users, Sparkles, Target, Zap } from 'lucide-react';
+import { ArrowRight, BookOpen, Users, Sparkles, Target, Zap } from 'lucide-react';
 import { generatePageMetadata, siteConfig } from '@/lib/seo';
 import { AnimatedCard, FadeIn } from '@/components/ui/animated-card';
 import { Button } from '@/components/ui/button';
@@ -135,26 +135,19 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Simple Pricing */}
+      {/* Pricing CTA */}
       <section className="py-section bg-muted dark:bg-card">
         <div className="container-custom">
           <FadeIn>
-            <div className="max-w-lg mx-auto">
-              <AnimatedCard className="p-10 text-center">
-                <div className="flex items-baseline justify-center gap-1 mb-2">
-                  <DollarSign className="w-8 h-8 text-accent" />
-                  <span className="text-6xl font-extrabold text-primary">6</span>
-                </div>
-                <p className="text-lg text-text mb-2">{t('pricing.period')}</p>
-                <p className="text-text mb-6">{t('pricing.tagline')}</p>
-                <p className="text-sm text-accent font-medium mb-6">{t('pricing.comparison')}</p>
-                <Button asChild variant="accent" size="xl" className="w-full">
-                  <Link href="https://thelivingtextbook.lokalingo.com/start-free">
-                    {t('pricing.cta')}
-                  </Link>
-                </Button>
-                <p className="text-small text-muted-foreground mt-3">{t('pricing.note')}</p>
-              </AnimatedCard>
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-h2 mb-4">{t('pricing.title')}</h2>
+              <p className="text-xl text-text mb-8">{t('pricing.subtitle')}</p>
+              <Button asChild variant="accent" size="xl">
+                <Link href={`/${locale}/pricing`}>
+                  {t('pricing.cta')}
+                  <ArrowRight className="w-5 h-5 ml-1" />
+                </Link>
+              </Button>
             </div>
           </FadeIn>
         </div>

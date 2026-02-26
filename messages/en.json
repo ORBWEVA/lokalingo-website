@@ -89,12 +89,9 @@
       ]
     },
     "pricing": {
-      "price": "$6",
-      "period": "per active seat, per month",
-      "tagline": "No commissions. No hidden fees. No lock-in.",
-      "comparison": "At 50 students, you pay $300/month — not $3,300.",
-      "cta": "Start Free",
-      "note": "Add seats as you grow. Cancel anytime."
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "$6 per active seat, per month. No commissions. No hidden fees. Start with a 14-day free trial.",
+      "cta": "See Pricing"
     },
     "testimonials": {
       "title": "What People Say",
