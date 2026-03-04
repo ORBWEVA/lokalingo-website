@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1772654704674',
     slug: 'cefr-aligned-language-assessment-tools-20260305',
+    slugs: {
+      ja: 'CEFR-対応-語学-評価-ツル-20260305',
+    },
     date: '2026-03-04',
     category: 'Language Learning',
     readTime: '20 min read',
