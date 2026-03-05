@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1772741104626',
     slug: 'language-learning-platform-comparison-2026-20260306',
+    slugs: {
+      ja: '語学-学習-プラットフォム-比較-2026-20260306',
+    },
     date: '2026-03-05',
     category: 'EdTech',
     readTime: '18 min read',
