@@ -49,6 +49,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'EdTech',
     readTime: '18 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1772741104626.png',
   },
   {
     id: 'loka-1772654704674',
