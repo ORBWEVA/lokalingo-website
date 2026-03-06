@@ -43,6 +43,7 @@ export const blogPosts: BlogPostMeta[] = [
     slug: 'ai-powered-emotional-intelligence-tutors-revolutio-20260307',
     slugs: {
       ja: 'EdTech-トレンド-2026-語学-20260307',
+      ko: '에드테크-트렌드-2026-어학-20260307',
     },
     date: '2026-03-06',
     category: 'Language Learning',
