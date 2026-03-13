@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1773432304367',
     slug: 'ai-powered-emotion-recognition-in-language-learnin-20260314',
+    slugs: {
+      ja: 'EdTech-トレンド-2026-語学-20260314',
+    },
     date: '2026-03-13',
     category: 'Language Learning',
     readTime: '10 min read',
