@@ -39,6 +39,15 @@ export interface BlogMessages {
 // Start empty — posts added via n8n automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1773518704821',
+    slug: 'interactive-whiteboard-language-teaching-20260315',
+    date: '2026-03-14',
+    category: 'Language Learning',
+    readTime: '10 min read',
+    author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1773518704821.png',
+  },
+  {
     id: 'loka-1773432304367',
     slug: 'ai-powered-emotion-recognition-in-language-learnin-20260314',
     slugs: {
