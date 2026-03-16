@@ -39,6 +39,14 @@ export interface BlogMessages {
 // Start empty — posts added via n8n automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1773691505398',
+    slug: 'ai-language-teaching-assistant-2026-20260317',
+    date: '2026-03-16',
+    category: 'AI in Education',
+    readTime: '12 min read',
+    author: 'LokaLingo',
+  },
+  {
     id: 'loka-1773605104586',
     slug: 'spaced-repetition-language-learning-2026-20260316',
     slugs: {
