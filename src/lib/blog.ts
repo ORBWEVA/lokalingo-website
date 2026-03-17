@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1773777904488',
     slug: 'independent-language-teacher-tools-2026-20260318',
+    slugs: {
+      ja: '英会話-スクル-管理-ソフト-20260318',
+    },
     date: '2026-03-17',
     category: 'Teaching Methods',
     readTime: '12 min read',
