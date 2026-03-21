@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1774123504371',
     slug: 'interactive-whiteboard-language-teaching-20260322',
+    slugs: {
+      ja: 'インタラクティブ-ホワイトボド-語学-20260322',
+    },
     date: '2026-03-21',
     category: 'Language Learning',
     readTime: '10 min read',
