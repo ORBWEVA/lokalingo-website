@@ -39,6 +39,15 @@ export interface BlogMessages {
 // Start empty — posts added via n8n automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1774209904064',
+    slug: 'spaced-repetition-language-learning-2026-20260323',
+    date: '2026-03-22',
+    category: 'Language Learning',
+    readTime: '12 min read',
+    author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1774209904064.png',
+  },
+  {
     id: 'loka-1774123504371',
     slug: 'interactive-whiteboard-language-teaching-20260322',
     slugs: {
