@@ -43,6 +43,7 @@ export const blogPosts: BlogPostMeta[] = [
     slug: 'ai-language-teaching-assistant-2026-20260324',
     slugs: {
       ja: 'AI-語学教育-アシスタント-2026-20260324',
+      ko: 'AI-어학-교육-보조-2026-20260324',
     },
     date: '2026-03-23',
     category: 'AI in Education',
