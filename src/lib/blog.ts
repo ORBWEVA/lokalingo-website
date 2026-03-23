@@ -62,6 +62,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Language Learning',
     readTime: '10 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1774123504371.png',
   },
   {
     id: 'loka-1774037105005',
@@ -74,6 +75,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Language Learning',
     readTime: '12 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1774037105005.png',
   },
   {
     id: 'loka-1773950704426',
@@ -99,6 +101,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Language Learning',
     readTime: '18 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1773864304711.png',
   },
   {
     id: 'loka-1773777904488',
@@ -111,6 +114,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Teaching Methods',
     readTime: '12 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1773173104333.png',
   },
   {
     id: 'loka-1773691505398',
@@ -123,6 +127,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'AI in Education',
     readTime: '12 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1773691505398.png',
   },
   {
     id: 'loka-1773605104586',
