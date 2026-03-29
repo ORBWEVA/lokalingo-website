@@ -41,6 +41,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1774811104849',
     slug: 'spaced-repetition-language-learning-2026-20260330',
+    slugs: {
+      ja: '間隔反復-語学学習-2026-20260330',
+    },
     date: '2026-03-29',
     category: 'Language Learning',
     readTime: '15 min read',
