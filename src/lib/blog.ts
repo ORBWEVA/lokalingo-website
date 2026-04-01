@@ -39,6 +39,15 @@ export interface BlogMessages {
 // Start empty — posts added via n8n automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1775070304346',
+    slug: 'cefr-aligned-language-assessment-tools-20260402',
+    date: '2026-04-01',
+    category: 'Language Learning',
+    readTime: '15 min read',
+    author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1775070304346.png',
+  },
+  {
     id: 'loka-1774983904753',
     slug: 'independent-language-teacher-tools-2026-20260401',
     slugs: {
