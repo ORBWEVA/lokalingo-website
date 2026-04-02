@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { AnimatedCard, FadeIn } from '@/components/ui/animated-card';
 import { BlogThumbnail } from '@/components/blog/BlogThumbnail';
-import { getLocalizedSlug, blogCategories, type BlogPost } from '@/lib/blog';
+import { blogCategories, type BlogPost } from '@/lib/blog-shared';
 
 const POSTS_PER_PAGE = 9;
 
@@ -97,7 +97,7 @@ export function BlogPostList({ posts, locale, translations }: BlogPostListProps)
         )}
         {paginatedPosts.map((post, index) => (
           <FadeIn key={post.id} delay={index * 100}>
-            <Link href={`/${locale}/blog/${getLocalizedSlug(post, locale)}`} className="block">
+            <Link href={`/${locale}/blog/${post.slug}`} className="block">
               <AnimatedCard className="p-6">
                 <BlogThumbnail src={post.heroImage} alt={post.title} category={post.category} />
                 <div className="flex items-center gap-4 mb-3">

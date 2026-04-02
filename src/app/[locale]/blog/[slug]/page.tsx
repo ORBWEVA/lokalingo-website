@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
-import { getTranslations, getLocale, getMessages } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Calendar, Clock, User, ArrowLeft, ArrowRight } from 'lucide-react';
-import { getBlogPost, blogPosts, BlogMessages, getLocalizedSlug, findSlugLocale } from '@/lib/blog';
+import { getPostBySlug, blogPosts, getLocalizedSlug, findSlugLocale, hasLocaleContent } from '@/lib/blog';
 import { generateAlternates, generateOpenGraph, siteConfig } from '@/lib/seo';
 import { BlogContent } from '@/components/blog/BlogContent';
 import { BlogHeroImage } from '@/components/blog/BlogHeroImage';
@@ -16,14 +16,15 @@ type Props = {
 
 export async function generateStaticParams() {
   return blogPosts.flatMap((post) =>
-    locales.map((locale) => ({ locale, slug: getLocalizedSlug(post, locale) }))
+    locales
+      .filter((locale) => hasLocaleContent(post, locale))
+      .map((locale) => ({ locale, slug: getLocalizedSlug(post, locale) }))
   );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const messages = await getMessages() as unknown as BlogMessages;
-  const post = getBlogPost(slug, messages, locale);
+  const post = getPostBySlug(slug, locale);
 
   if (!post) {
     return { title: 'Post Not Found' };
@@ -46,9 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const t = await getTranslations('blog');
-  const messages = await getMessages() as unknown as BlogMessages;
   const locale = await getLocale();
-  const post = getBlogPost(slug, messages, locale);
+  const post = getPostBySlug(slug, locale);
 
   if (!post) {
     const match = findSlugLocale(slug);

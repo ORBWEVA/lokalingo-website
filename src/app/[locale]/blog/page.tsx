@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import { getTranslations, getLocale, getMessages } from 'next-intl/server';
-import { getAllBlogPosts, type BlogMessages } from '@/lib/blog';
+import { getTranslations, getLocale } from 'next-intl/server';
+import { getAllPosts } from '@/lib/blog';
 import { FadeIn } from '@/components/ui/animated-card';
 import { generatePageMetadata, siteConfig } from '@/lib/seo';
 import { BlogPostList } from '@/components/blog/BlogPostList';
@@ -14,9 +14,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPage() {
   const t = await getTranslations('blog');
-  const messages = await getMessages() as unknown as BlogMessages;
   const locale = await getLocale();
-  const posts = getAllBlogPosts(messages);
+  const posts = getAllPosts(locale);
 
   const translations = {
     allCategories: t('allCategories'),
