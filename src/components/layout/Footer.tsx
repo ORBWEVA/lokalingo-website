@@ -108,10 +108,26 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/20">
-          <p className="text-white/80 text-sm text-center">
+        <div className="mt-12 pt-8 border-t border-white/20 flex flex-col md:flex-row items-center justify-between gap-6">
+          <p className="text-white/80 text-sm text-center md:text-left">
             &copy; {new Date().getFullYear()} LokaLingo {t('copyright')}
           </p>
+          <a
+            href="https://elevenlabs.io/startup-grants"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Backed by ElevenLabs Grants"
+            className="opacity-90 hover:opacity-100 transition-opacity"
+          >
+            <Image
+              src="/elevenlabs-grants-dark.webp"
+              alt="ElevenLabs Grants"
+              width={200}
+              height={32}
+              className="h-auto w-[200px]"
+              unoptimized
+            />
+          </a>
         </div>
       </div>
     </footer>
