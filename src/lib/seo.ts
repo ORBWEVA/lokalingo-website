@@ -23,6 +23,19 @@ export function generateAlternates(path: string, locale: string) {
   };
 }
 
+export function generateFAQSchema(items: { question: string; answer: string }[], locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    inLanguage: locale,
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  };
+}
+
 export function generateOgImageUrl(_title: string, _subtitle?: string) {
   return `${siteConfig.url}/logo.png`;
 }

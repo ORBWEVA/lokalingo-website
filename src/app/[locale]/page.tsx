@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { ArrowRight, BookOpen, Users, Sparkles, Target, Zap } from 'lucide-react';
-import { generatePageMetadata, siteConfig } from '@/lib/seo';
+import { generatePageMetadata, generateFAQSchema, siteConfig } from '@/lib/seo';
 import { AnimatedCard, FadeIn } from '@/components/ui/animated-card';
 import { Button } from '@/components/ui/button';
 import { FAQAccordion } from '@/components/faq/FAQAccordion';
@@ -23,8 +23,17 @@ export default async function HomePage() {
   const differenceLinks = ['/for-educators', '/for-learners', '/for-schools'];
   const flowIcons = [Target, Sparkles, Zap];
 
+  const faqItems = Array.from({ length: 7 }, (_, i) => ({
+    question: t(`faq.items.${i}.question`),
+    answer: t(`faq.items.${i}.answer`),
+  }));
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqItems, locale)) }}
+      />
       {/* Hero */}
       <section className="py-hero bg-gradient-to-b from-white via-blue-50/30 to-muted dark:from-background dark:via-[hsl(230,60%,8%)] dark:to-muted relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(205,100%,60%,0.08),transparent_60%)] dark:bg-[radial-gradient(ellipse_at_top,hsl(205,100%,60%,0.12),transparent_60%)]" />
@@ -182,15 +191,7 @@ export default async function HomePage() {
           <FadeIn>
             <h2 className="text-h2 text-center mb-12">{t('faq.title')}</h2>
           </FadeIn>
-          <FAQAccordion
-            categories={[{
-              title: '',
-              items: Array.from({ length: 7 }, (_, i) => ({
-                question: t(`faq.items.${i}.question`),
-                answer: t(`faq.items.${i}.answer`),
-              })),
-            }]}
-          />
+          <FAQAccordion categories={[{ title: '', items: faqItems }]} />
         </div>
       </section>
 
