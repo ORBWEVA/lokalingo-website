@@ -33,7 +33,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https://tskaeijjtjnbjofecpiz.supabase.co",
               "font-src 'self'",
-              "connect-src 'self' https://tskaeijjtjnbjofecpiz.supabase.co wss://tskaeijjtjnbjofecpiz.supabase.co https://vitals.vercel-insights.com https://va.vercel-scripts.com https://www.google-analytics.com https://region1.google-analytics.com",
+              "connect-src 'self' https://tskaeijjtjnbjofecpiz.supabase.co wss://tskaeijjtjnbjofecpiz.supabase.co https://vitals.vercel-insights.com https://va.vercel-scripts.com https://www.google-analytics.com https://region1.google-analytics.com https://n8n.orbweva.cloud",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self'",
