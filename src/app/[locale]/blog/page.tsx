@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
-import { getAllPosts } from '@/lib/blog';
+import { getAllPosts, blogCategories } from '@/lib/blog';
 import { FadeIn } from '@/components/ui/animated-card';
 import { generatePageMetadata, siteConfig } from '@/lib/seo';
 import { BlogPostList } from '@/components/blog/BlogPostList';
@@ -19,12 +19,7 @@ export default async function BlogPage() {
 
   const translations = {
     allCategories: t('allCategories'),
-    categories: {
-      'Language Learning': t('categories.Language Learning'),
-      'EdTech': t('categories.EdTech'),
-      'Teaching Methods': t('categories.Teaching Methods'),
-      'AI in Education': t('categories.AI in Education'),
-    },
+    categories: Object.fromEntries(blogCategories.map((cat) => [cat, t(`categories.${cat}`)])),
     readMore: t('readMore'),
     noPostsInCategory: t('noPostsInCategory'),
     pagination: {

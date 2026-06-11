@@ -18,6 +18,6 @@ export interface BlogPost extends BlogPostMeta {
   content: string;
 }
 
-// Loka blog categories — education-focused
-export const blogCategories = ['Platform', 'Learning Science', 'AI', 'Teaching', 'Assessment', 'Technology', 'Trending'] as const;
+// Loka blog categories — union of all categories used in content/blog MDX frontmatter, ordered by post count
+export const blogCategories = ['Language Learning', 'AI', 'Technology', 'Teaching Methods', 'AI in Education', 'EdTech', 'Language Education', 'Trending', 'Platform', 'Learning Science', 'Assessment', 'Teaching'] as const;
 export type BlogCategory = typeof blogCategories[number];

@@ -9,6 +9,14 @@ const categoryGradients: Record<string, string> = {
   'EdTech': 'from-purple-600 via-violet-500 to-indigo-400',
   'Teaching Methods': 'from-amber-500 via-orange-500 to-red-400',
   'AI in Education': 'from-emerald-500 via-green-500 to-lime-400',
+  'AI': 'from-emerald-600 via-teal-500 to-cyan-400',
+  'Technology': 'from-slate-600 via-blue-500 to-indigo-400',
+  'Language Education': 'from-sky-600 via-blue-500 to-cyan-400',
+  'Trending': 'from-pink-600 via-rose-500 to-orange-400',
+  'Platform': 'from-indigo-600 via-purple-500 to-fuchsia-400',
+  'Learning Science': 'from-violet-600 via-purple-500 to-pink-400',
+  'Assessment': 'from-yellow-500 via-amber-500 to-orange-400',
+  'Teaching': 'from-orange-500 via-amber-500 to-yellow-400',
 };
 
 interface BlogThumbnailProps {
