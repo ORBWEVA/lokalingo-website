@@ -56,8 +56,10 @@ export function generatePricingSchema(locale: string) {
   };
 }
 
-export function generateOgImageUrl(_title: string, _subtitle?: string) {
-  return `${siteConfig.url}/logo.png`;
+export function generateOgImageUrl(title: string, subtitle?: string) {
+  const params = new URLSearchParams({ title });
+  if (subtitle) params.set('subtitle', subtitle);
+  return `${siteConfig.url}/og?${params.toString()}`;
 }
 
 export function generateOpenGraph(
@@ -68,7 +70,7 @@ export function generateOpenGraph(
   subtitle?: string,
   heroImage?: string
 ) {
-  const ogImageUrl = heroImage || generateOgImageUrl(title, subtitle);
+  const ogImageUrl = heroImage || generateOgImageUrl(title, subtitle ?? description);
   return {
     title,
     description,
@@ -85,7 +87,7 @@ export function generateTwitterCard(title: string, description: string, subtitle
     card: 'summary_large_image' as const,
     title,
     description,
-    images: [generateOgImageUrl(title, subtitle)],
+    images: [generateOgImageUrl(title, subtitle ?? description)],
   };
 }
 
