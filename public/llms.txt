@@ -13,10 +13,23 @@
 - [The Loka Story](https://lokalingo.com/en/the-loka-story): 23 years of language education history
 - [Blog](https://lokalingo.com/en/blog): Language learning science, AI education, teaching methods
 
+## Blog Categories
+
+The blog (also at /ja/blog and /ko/blog) covers ~290 articles across these categories:
+
+- Language Learning: acquisition science, spaced repetition, learner motivation
+- AI: AI tutoring, teaching assistants, real-time feedback
+- Technology: platform comparisons, interactive whiteboards, school management software
+- Teaching Methods: communicative teaching, lesson design, assessment practice
+- AI in Education: classroom AI adoption, emotion-aware tutoring
+- EdTech: industry trends, tool roundups
+- Language Education: market-specific guidance for English educators in Japan and Korea
+- Platform, Learning Science, Assessment, Trending, Teaching: product updates, research summaries, CEFR-aligned evaluation, current topics
+
 ## Product Documentation
 
 - [Docs](https://docs.lokalingo.com): Getting started, educator guides, learner guides, creator guides, FAQ
-- [The Living Textbook](https://thelivingtextbook.lokalingo.com/en): AI-powered curriculum platform — Canvas, assessment engine, features
+- [The Living Textbook](https://thelivingtextbook.lokalingo.com/en): The core product — an AI-powered curriculum platform where real lessons become living, reviewable curriculum. Educators teach on the Canvas whiteboard; AI captures the session, generates CEFR-aligned assessments and spaced-repetition review; learners track progress across 5 dimensions. Pricing is a single plan: $6 USD per active seat per month with a 14-day free trial (no credit card). Supports English, Japanese, and Korean interfaces.
 
 ## Legal
 
