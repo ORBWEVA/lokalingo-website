@@ -36,6 +36,26 @@ export function generateFAQSchema(items: { question: string; answer: string }[],
   };
 }
 
+export function generatePricingSchema(locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'The Living Textbook',
+    applicationCategory: 'EducationalApplication',
+    operatingSystem: 'Web',
+    url: 'https://thelivingtextbook.lokalingo.com',
+    description: siteConfig.description,
+    inLanguage: locale,
+    offers: {
+      '@type': 'Offer',
+      price: 6,
+      priceCurrency: 'USD',
+      description: '$6 per active seat per month. 14-day free trial, no credit card required.',
+      url: `${siteConfig.url}/${locale}/pricing`,
+    },
+  };
+}
+
 export function generateOgImageUrl(_title: string, _subtitle?: string) {
   return `${siteConfig.url}/logo.png`;
 }

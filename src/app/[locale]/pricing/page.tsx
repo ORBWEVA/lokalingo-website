@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
-import { generatePageMetadata, generateFAQSchema } from '@/lib/seo';
+import { generatePageMetadata, generateFAQSchema, generatePricingSchema } from '@/lib/seo';
 import PricingContent from '@/components/pricing/PricingContent';
 
 type Props = { params: Promise<{ locale: string }> };
@@ -24,6 +24,10 @@ export default async function PricingPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqItems, locale)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generatePricingSchema(locale)) }}
       />
       <PricingContent />
     </>
