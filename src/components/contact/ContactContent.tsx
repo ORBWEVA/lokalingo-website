@@ -98,7 +98,7 @@ export default function ContactContent() {
                   </div>
                   <p className="text-text mb-4">{t('calendly.description')}</p>
                   <Button asChild variant="outline" size="lg" className="w-full">
-                    <a href="https://calendly.com/ryan-lokalingo/demo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://calendly.com/ryan-loka-eco/a-fruitful-discussion" target="_blank" rel="noopener noreferrer">
                       {t('calendly.title')}
                     </a>
                   </Button>
